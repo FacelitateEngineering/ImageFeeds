@@ -13,7 +13,7 @@ import numpy as np
 from PIL import Image
 import time
 
-class DSLRCamera:
+class DSLRFeed:
     def __init__(self, display=False, post_processing=[], return_img=False):
         """A video camera object that provides a stream of frames"""
         log.basicConfig(
